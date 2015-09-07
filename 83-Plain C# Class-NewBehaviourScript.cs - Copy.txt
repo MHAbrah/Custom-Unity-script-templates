@@ -1,0 +1,13 @@
+//namespace FundayFactory
+//{
+/// <summary>
+/// 
+/// </summary>
+public class #SCRIPTNAME#
+{
+    public #SCRIPTNAME#()
+    {
+        
+    }
+}
+//}
