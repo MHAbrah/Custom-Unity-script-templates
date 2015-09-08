@@ -16,7 +16,7 @@ public class #SCRIPTNAME# : ScriptableObject
     #region Unity Reflection Methods
 
     /// <summary>
-    /// Called when #SCRIPTNAME# is enabled, before Start().
+    /// Called when #SCRIPTNAME# is enabled.
     /// </summary>
     //private void OnEnable()
     //{
