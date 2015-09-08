@@ -20,24 +20,23 @@ public class #SCRIPTNAME# : ScriptableObject
     /// </summary>
     //private void OnEnable()
     //{
-    //
+    //    
     //}
 
-	/// <summary>
+    /// <summary>
     /// Called when #SCRIPTNAME# is disabled.
     /// </summary>
     //private void OnDisable()
     //{
-    //
+    //    
     //}
 	
-	/// <summary>
-	/// Called when #SCRIPTNAME# is destroyed.
-	/// </summary>
-	private void OnDestroy()
-	{
-	
-	}
-	
-	#endregion
+    /// <summary>
+    /// Called when #SCRIPTNAME# is destroyed.
+    /// </summary>
+    //private void OnDestroy()
+    //{
+    //    
+    //}
+    #endregion
 }
