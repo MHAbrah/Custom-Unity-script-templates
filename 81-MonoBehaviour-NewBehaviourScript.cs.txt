@@ -54,12 +54,12 @@ public class #SCRIPTNAME# : MonoBehaviour
     //    
     //}
 	
-	///<summary>
-	/// Called when the script is loaded or a value is changed in the inspector (Called in the editor only).
-	///</summary>
-	///private void OnValidate()
-	//{
-	//    
-	//}
+    ///<summary>
+    /// Called when the script is loaded or a value is changed in the inspector (Called in the editor only).
+    ///</summary>
+    ///private void OnValidate()
+    //{
+    //    
+    //}
     #endregion
 }
