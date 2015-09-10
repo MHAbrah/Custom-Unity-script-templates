@@ -14,49 +14,49 @@ public class #SCRIPTNAME# : MonoBehaviour
     #endregion
 
     #region Unity Reflection Methods
-    ///<summary>
-    ///Called when #SCRIPTNAME# is loaded, even if the behaviour is disabled but not if the GameObject it is attached to is inactive.
-    ///</summary>
+    /// <summary>
+    /// Called when #SCRIPTNAME# is loaded, even if the behaviour is disabled but not if the GameObject it is attached to is inactive.
+    /// </summary>
     //private void Awake()
     //{
-    //
+    //    
     //}
 
-    ///<summary>
-    ///Called when #SCRIPTNAME# is enabled, before Start().
-    ///</summary>
+    /// <summary>
+    /// Called when #SCRIPTNAME# is enabled, before Start().
+    /// </summary>
     //private void OnEnable()
     //{
-    //
+    //    
     //}
 
-    ///<summary>
-    ///Called right before the first Update() after #SCRIPTNAME# is enabled. 
-    ///</summary>
+    /// <summary>
+    /// Called right before the first Update() after #SCRIPTNAME# is enabled. 
+    /// </summary>
     //private void Start()
     //{
-    //
+    //    
     //}
 
-    ///<summary>
-    ///Draw gizmos when GameObject that #SCRIPTNAME# is attached to is selected.
-    ///</summary>
+    /// <summary>
+    /// Draw gizmos when GameObject that #SCRIPTNAME# is attached to is selected.
+    /// </summary>
     //private void OnDrawGizmosSelected()
     //{
-    //
+    //    
     //}
 
-    ///<summary>
-    ///Draw gizmos of the GameObject that #SCRIPTNAME# is attached to.
-    ///</summary>
+    /// <summary>
+    /// Draw gizmos of the GameObject that #SCRIPTNAME# is attached to.
+    /// </summary>
     //private void OnDrawGizmos()
     //{
     //    
     //}
 	
-    ///<summary>
+    /// <summary>
     /// Called when the script is loaded or a value is changed in the inspector (Called in the editor only).
-    ///</summary>
+    /// </summary>
     ///private void OnValidate()
     //{
     //    
