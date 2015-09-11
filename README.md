@@ -1,4 +1,4 @@
-# Custom Unity script templates
+# Custom Unity Script Templates
 Some more extensive script templates for C# development.
 
 ## Usage
