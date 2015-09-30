@@ -6,7 +6,6 @@ using System.Collections.Generic;
 /// </summary>
 public class #SCRIPTNAME# : MonoBehaviour
 {
-
     #region Unity Reflection variables
 #pragma warning disable 0649 // The "Never assigned to" warning.
 
@@ -15,11 +14,11 @@ public class #SCRIPTNAME# : MonoBehaviour
 
     #region Unity Reflection Methods
     /// <summary>
-    /// Called when #SCRIPTNAME# is loaded, even if the behaviour is disabled but not if the GameObject it is attached to is inactive.
+    /// Called when #SCRIPTNAME# is loaded,
+    /// even if the behaviour is disabled but not if the GameObject it is attached to is inactive.
     /// </summary>
     //private void Awake()
     //{
-    //    
     //}
 
     /// <summary>
@@ -27,7 +26,6 @@ public class #SCRIPTNAME# : MonoBehaviour
     /// </summary>
     //private void OnEnable()
     //{
-    //    
     //}
 
     /// <summary>
@@ -35,7 +33,6 @@ public class #SCRIPTNAME# : MonoBehaviour
     /// </summary>
     //private void Start()
     //{
-    //    
     //}
 
     /// <summary>
@@ -43,7 +40,6 @@ public class #SCRIPTNAME# : MonoBehaviour
     /// </summary>
     //private void OnDrawGizmosSelected()
     //{
-    //    
     //}
 
     /// <summary>
@@ -51,15 +47,13 @@ public class #SCRIPTNAME# : MonoBehaviour
     /// </summary>
     //private void OnDrawGizmos()
     //{
-    //    
     //}
 	
     /// <summary>
     /// Called when the script is loaded or a value is changed in the inspector (Called in the editor only).
     /// </summary>
-    ///private void OnValidate()
+    //private void OnValidate()
     //{
-    //    
     //}
     #endregion
 }
