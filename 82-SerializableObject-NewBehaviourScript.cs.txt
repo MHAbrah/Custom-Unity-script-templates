@@ -6,7 +6,6 @@ using System.Collections.Generic;
 /// </summary>
 public class #SCRIPTNAME# : ScriptableObject
 {
-
     #region Unity Reflection variables
 #pragma warning disable 0649 // The "Never assigned to" warning.
 
@@ -19,16 +18,14 @@ public class #SCRIPTNAME# : ScriptableObject
     /// Called when #SCRIPTNAME# is enabled.
     /// </summary>
     //private void OnEnable()
-    //{
-    //    
+    //{   
     //}
 
     /// <summary>
     /// Called when #SCRIPTNAME# is disabled.
     /// </summary>
     //private void OnDisable()
-    //{
-    //    
+    //{   
     //}
 	
     /// <summary>
@@ -36,7 +33,6 @@ public class #SCRIPTNAME# : ScriptableObject
     /// </summary>
     //private void OnDestroy()
     //{
-    //    
     //}
     #endregion
 }
