@@ -27,6 +27,13 @@ public class #SCRIPTNAME# : MonoBehaviour
     //private void OnEnable()
     //{
     //}
+    
+    /// <summary>
+    /// Called when #SCRIPTNAME# is disabled, either specifically or right before the GameObject is destroyed.
+    /// </summary>
+    //private void OnDisable()
+    //{
+    //}
 
     /// <summary>
     /// Called right before the first Update() after #SCRIPTNAME# is enabled. 
