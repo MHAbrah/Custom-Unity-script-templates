@@ -30,7 +30,7 @@ The standard MonoBehaviour subclass with a few added **magical** Unity *event fu
 A subclass of *ScriptableObject*. Useful for scripts that do not need to attach to specific *GameObjects*.
     Contains the following **magical** Unity *event functions*:
 - **OnEnable():** Called when #SCRIPTNAME# is enabled.
-- **OnDisable():** Called when #SCRIPTNAME# is disabled, either specifically or right before the GameObject is destroyed.
+- **OnDisable():** Called when #SCRIPTNAME# is disabled.
 - **OnDestroy():** Called when #SCRIPTNAME# is destroyed.
  
 
