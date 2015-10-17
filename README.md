@@ -18,6 +18,7 @@ Some more extensive script templates for C# development.
 ### 81-MonoBehaviour-NewBehaviourScript.cs.txt
 The standard MonoBehaviour subclass with a few added **magical** Unity *event functions*:
 -  **Awake():** Called when #SCRIPTNAME# is loaded, even if the behaviour is disabled but not if the GameObject it is attached to is inactive.
+-  **Start():** Called right before the first Update() after #SCRIPTNAME# is enabled.
 -  **OnEnable():** Called when #SCRIPTNAME# is enabled, before *Start()*.
 -  **OnDisable():** Called when #SCRIPTNAME# is disabled, either specifically or right before the GameObject is destroyed.
 -  **OnDrawGizmosSelected():** Draw gizmos when GameObject that #SCRIPTNAME# is attached to is selected.
