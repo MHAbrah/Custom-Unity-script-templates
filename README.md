@@ -19,6 +19,7 @@ Some more extensive script templates for C# development.
 The standard MonoBehaviour subclass with a few added **magical** Unity *event functions*:
 -  **Awake():** Called when #SCRIPTNAME# is loaded, even if the behaviour is disabled but not if the GameObject it is attached to is inactive.
 -  **OnEnable():** Called when #SCRIPTNAME# is enabled, before *Start()*.
+-  **OnDisable():** Called when #SCRIPTNAME# is disabled, either specifically or right before the GameObject is destroyed.
 -  **OnDrawGizmosSelected():** Draw gizmos when GameObject that #SCRIPTNAME# is attached to is selected.
 -  **OnDrawGizmos():** Draw gizmos of the GameObject that #SCRIPTNAME# is attached to.
 -  **OnValidate():** Called when the script is loaded or a value is changed in the inspector (Called in the editor only).
@@ -28,7 +29,7 @@ The standard MonoBehaviour subclass with a few added **magical** Unity *event fu
 A subclass of *ScriptableObject*. Useful for scripts that do not need to attach to specific *GameObjects*.
     Contains the following **magical** Unity *event functions*:
 - **OnEnable():** Called when #SCRIPTNAME# is enabled.
-- **OnDisable():** Called when #SCRIPTNAME# is disabled.
+- **OnDisable():** Called when #SCRIPTNAME# is disabled, either specifically or right before the GameObject is destroyed.
 - **OnDestroy():** Called when #SCRIPTNAME# is destroyed.
  
 
