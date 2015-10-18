@@ -1,10 +1,14 @@
-/// <summary>
-/// 
-/// </summary>
-public class #SCRIPTNAME#
-{
-    public #SCRIPTNAME#()
-    {
-        
-    }
+using Game;
+
+namespace Game {
+	/// <summary>
+	/// 
+	/// </summary>
+	public class #SCRIPTNAME#
+	{
+		public #SCRIPTNAME#()
+		{
+			
+		}
+	}
 }
