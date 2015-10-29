@@ -1,0 +1,41 @@
+using UnityEngine;
+using UnityEditor;
+
+namespace GameEditor
+{
+	/// <summary>
+	/// 
+	/// </summary>
+	[CustomEditor(typeof(#TARGETCLASS#))]
+	public class #SCRIPTNAME# : Editor
+	{
+		//#TARGETCLASS# _target;
+	
+		private void OnEnable()
+		{
+			_target = (#TARGETCLASS#)target;
+			// Remove delegate listener if it has previously
+			// been assigned.
+			//SceneView.onSceneGUIDelegate -= OnSceneGUI;
+			// Add (or re-add) the delegate.
+			//SceneView.onSceneGUIDelegate += OnSceneGUI;
+		}
+	
+		public override void OnInspectorGUI()
+		{
+			
+		}
+	
+		protected void OnDisable()
+		{
+			// When the window is disabled, remove the delegate
+			// so that it will no longer do any drawing.
+			SceneView.onSceneGUIDelegate -= OnSceneGUI;
+		}
+	
+		protected void OnSceneGUI()
+		{
+			
+		}
+	}
+}
