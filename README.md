@@ -39,3 +39,6 @@ An empty class in global namespace. Useful for objects that do not directly inte
 
 ### 84-Empty C# file-NewBehaviourScript.cs.txt
 A completely empty .cs file. Useful for quickly creating a very custom code file.
+
+### 85-CustomEditor-NewBehaviourScript.cs.txt
+A subclass of the UnityEditor.Editor class that is used for making custom inspectors for classes.
